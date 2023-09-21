@@ -1,0 +1,8 @@
+horse
+car
+man
+woman
+goat
+dog
+cat
+bus

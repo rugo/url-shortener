@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container">
+        <h1>URL Mnemonics</h1>
+        <label for="url">Mnemonic URL:</label>
+        <input type="text" name="url" value="{{ base_url }}/{{ mnemonic }}" size="42" readonly>
+        <br><br>
+        <label for="url">Expanded URL:</label>
+        <input type="text" name="url" value="{{ url }}" size="42" readonly>
+        <br><br>
+        <a href="/">Create another mnemonic link</a>
+    </div>
+{% endblock %}
